@@ -2,6 +2,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
+  namespace "com.orhanobut.hawk"
   compileSdkVersion rootProject.ext.compileSdkVersion
   buildToolsVersion rootProject.ext.buildToolsVersion
 
@@ -35,4 +36,4 @@ dependencies {
 
 }
 
-apply from: rootProject.file('gradle/maven_push.gradle')
+// apply from: rootProject.file('gradle/maven_push.gradle')

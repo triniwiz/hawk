@@ -1,13 +1,14 @@
 apply plugin: 'com.android.application'
 
 android {
+  namespace "com.orhanobut.benchmark"
   compileSdkVersion rootProject.ext.compileSdkVersion
   buildToolsVersion rootProject.ext.buildToolsVersion
 
   defaultConfig {
     applicationId "com.orhanobut.benchmark"
     minSdkVersion rootProject.ext.minSdkVersion
-    targetSdkVersion 26
+    targetSdkVersion 35
     versionCode 1
     versionName "1.0"
   }
