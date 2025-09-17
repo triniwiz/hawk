@@ -57,7 +57,7 @@ ext {
 
 ext.deps = [
     gson          : 'com.google.code.gson:gson:2.8.2',
-    conceal       : 'com.github.triniwiz:conceal:2d77782ecf',
+    conceal       : 'com.github.triniwiz:conceal:v1.1.3-upstream-SNAPSHOT',
 
     // Test dependencies
     junit         : 'junit:junit:4.12',
